@@ -41,7 +41,7 @@ function App() {
       <h1>Registrar Datos del Estudiante</h1>
       {submitting &&
         <div>
-          Gracias por tu registro:
+          Hola, Gracias por tu registro:
           <ul>
             {Object.entries(formData).map(([name, value]) => (
               <li key={name}><strong>{name.charAt(0).toUpperCase() + name.slice(1)}</strong>: {value.toString()}</li>
