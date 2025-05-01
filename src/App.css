@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.estilo {
+  padding: 5px 20px;
+}
+
+.estilo fieldset {
+  margin: 60px 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
